@@ -1,48 +1,29 @@
-"""
-Ejercicio 1: Mi primer objeto
--------------------------------
-Objetivo: completar la clase Mascota para practicar los conceptos
-de clase, objeto, atributo y método.
+# Ejercicio 1: Mi primer objeto 🐾
 
-Instrucciones:
-1. Completar el método __init__ para que guarde nombre, especie y edad.
-2. Completar el método saludar() para que imprima un mensaje usando
-   los atributos de la mascota.
-3. Completar el método cumplir_anios() para que sume 1 a la edad
-   e imprima un mensaje avisando el cambio.
-4. Al final del archivo, crear DOS objetos distintos de la clase
-   Mascota y probar sus métodos.
-"""
+## Consigna
 
+Completar la clase `Mascota` en `mascota.py` siguiendo los `TODO` que están marcados en el código.
 
-class Mascota:
-    def __init__(self, nombre, especie, edad):
-        # TODO: completar los atributos usando los parámetros
-        # self.nombre = ...
-        # self.especie = ...
-        # self.edad = ...
-        pass
+Tienen que:
 
-    def saludar(self):
-        # TODO: imprimir algo como:
-        # "Hola, soy Firulais, soy un Perro y tengo 3 años"
-        pass
+1. Completar el constructor (`__init__`) para que la mascota guarde su nombre, especie y edad.
+2. Completar el método `saludar()` para que se presente.
+3. Completar el método `cumplir_anios()` para que le sume un año a su edad.
+4. Crear **dos objetos** distintos de la clase y probar los métodos con cada uno.
 
-    def cumplir_anios(self):
-        # TODO: sumar 1 a self.edad
-        # e imprimir algo como:
-        # "¡Firulais cumplió años! Ahora tiene 4 años"
-        pass
+## ¿Cómo lo entrego?
 
+Recuerden el flujo de la guía de Git:
 
-# ----------------------------------------------------
-# Zona de pruebas: creá tus objetos acá abajo
-# ----------------------------------------------------
+```bash
+git add .
+git commit -m "Resuelvo ejercicio 1 - Mi primer objeto"
+git push
+```
 
-# Ejemplo (descomentar y completar):
-# mascota1 = Mascota("Firulais", "Perro", 3)
-# mascota1.saludar()
-# mascota1.cumplir_anios()
+## Resultado esperado (ejemplo)
 
-# mascota2 = Mascota(...)
-# mascota2.saludar()
+```
+Hola, soy Firulais, soy un Perro y tengo 3 años
+¡Firulais cumplió años! Ahora tiene 4 años
+```
